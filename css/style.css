@@ -1,0 +1,177 @@
+body{
+    background-image: url("../img/bg2.png");
+    background-color: #000000AD;
+}
+header .top {
+    display: flex;
+    justify-content: center;
+}
+header .top h2{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    background: linear-gradient(180deg, #FA13F0 0%, rgba(21, 27, 177, 0.77) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+
+}
+header .bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+header .bottom button{
+    border:none;
+    background: #EAD048;
+    border-radius: 42px;
+    padding: 20px 30px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+}
+header .bottom ::after {
+    content:'\203A';
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+}
+#wheelOfFortune {
+    position: relative;
+    background: radial-gradient(63.72% 49.94% at 50% 50%, #0FC9F2 76.18%, rgba(255, 7, 141, 0.46) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, #6315B1, #6315B1);
+    width: 700px;
+    height: 700px;
+    padding: 70px;
+    border-radius: 50%;
+}
+#wheel {
+    display: block;
+}
+#spin{
+    font-size: 23px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform:translate(-50%, -50%);
+    width: 135px;
+    height: 135px;
+    border: 20px solid;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+#wheelOfFortune h3{
+    top: 48%;
+    background: #A005FF;
+    z-index: 20;
+}
+.arrow{
+     position: absolute;
+     top: 0;
+     left: 50.1%;
+    transform:translate(-50%, -50%);
+}
+.circle{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #A005FF;
+    transform:translate(-50%, -50%);
+
+}
+.circle1, .circle7{
+    top: 19%;
+}
+.circle2, .circle6{
+    top: 50%;
+}
+.circle3, .circle5{
+    bottom: 13%;
+}
+.circle5, .circle7{
+    left: 71.5%;
+}
+.circle1, .circle3{
+    left: 28.5%;
+}
+.circle1{
+    background: linear-gradient(180deg, #2613FA 32.53%, rgba(185, 23, 242, 0) 100%);
+}
+.circle2{
+    left: 21.5%;
+    background: linear-gradient(180deg, #17DFFA 46.07%, rgba(129, 22, 196, 0) 100%);
+}
+.circle3{
+    background: linear-gradient(180deg, #A80AB6 41.38%, #2613FA 100%);
+}
+.circle4{
+    bottom: -2%;
+    background: linear-gradient(180deg, #B109A1 46.59%, #2613FA 100%);
+}
+.circle5{
+    background: linear-gradient(180deg, #680895 0%, rgba(22, 236, 236, 0) 100%);
+}
+.circle6{
+    right: 18%;
+    background: linear-gradient(180deg, #48EAEA 26.8%, #2613FA 100%);
+}
+.circle7{
+    background: linear-gradient(180deg, #940CFE 0%, #FA13F0 100%);
+}
+footer{
+    padding: 100px 0;
+}
+footer .footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .footer-top svg{
+    border-radius: 50%;
+    padding: 10px;
+    background: #E3F515;
+}
+footer .footer-top .svg_2{
+    padding: 10px 16px;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.footer-button button{
+    background: linear-gradient(180deg, #05E1FF 0%, rgba(236, 12, 214, 0.5) 100%);
+    border: 1px solid rgba(160, 5, 255, 0.48);
+    border-radius: 14px;
+    padding: 20px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+#play{
+    cursor: pointer;
+}
