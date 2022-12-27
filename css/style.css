@@ -6,64 +6,60 @@ header .top {
     display: flex;
     justify-content: center;
 }
-header .top h2{
+header .top h1{
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 3.513909224011713vw;
+    line-height: 4.24597364568082vw;
     background: linear-gradient(180deg, #FA13F0 0%, rgba(21, 27, 177, 0.77) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.07320644216691069vw black;
 
 }
 header .bottom{
-    margin-top: 50px;
+    margin: 1.8301610541727673vw 0;
     display: flex;
     justify-content: space-around;
 }
-header .bottom button{
+header .bottom h2{
     border:none;
     background: #EAD048;
-    border-radius: 42px;
-    padding: 20px 30px;
+    border-radius: 3.074670571010249vw;
+    padding: 1.4641288433382138vw 2.1961932650073206vw;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 24px;
-}
-header .bottom ::after {
-    content:'\203A';
-    padding: 10px 20px;
-    border: 2px solid;
-    border-radius: 50%;
-    margin-left: 20px;
+    font-size: 1.8301610541727673vw;
+    line-height: 1.7569546120058566vw;
+    text-transform: capitalize
 }
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 7.320644216691069vw;
     position: relative;
 }
 #wheelOfFortune {
     position: relative;
     background: radial-gradient(63.72% 49.94% at 50% 50%, #0FC9F2 76.18%, rgba(255, 7, 141, 0.46) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     linear-gradient(0deg, #6315B1, #6315B1);
-    width: 700px;
-    height: 700px;
-    padding: 70px;
+    width: 51.244509516837475vw;
+    height: 51.244509516837475vw;
+    padding: 5.124450951683748vw;
     border-radius: 50%;
 }
 #wheel {
     display: block;
+    width: 51.244509516837475vw;
+    height: 51.244509516837475vw;
 }
 #spin{
-    font-size: 23px;
+    font-size: 1.2445095168374818vw;
     user-select: none;
     cursor: pointer;
     display: flex;
@@ -74,31 +70,28 @@ main{
     left: 50%;
     color: #fff;
     transform:translate(-50%, -50%);
-    width: 135px;
-    height: 135px;
-    border: 20px solid;
+    width: 9.882869692532942vw;
+    height: 9.882869692532942vw;
+    border: 1.4641288433382138vw solid;
     border-radius: 50%;
     transition: 0.8s;
-}
-#wheelOfFortune h3{
-    top: 48%;
-    background: #A005FF;
-    z-index: 20;
+    text-align: center;
 }
 .arrow{
      position: absolute;
      top: 0;
      left: 50.1%;
     transform:translate(-50%, -50%);
+    width: 10.248901903367496vw;
+    height: 17.1303074670571vw;
 }
 .circle{
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 3.294289897510981vw;
+    height: 3.294289897510981vw;
     border-radius: 50%;
-    border: 1px solid #A005FF;
+    border: 0.07320644216691069vw solid #A005FF;
     transform:translate(-50%, -50%);
-
 }
 .circle1, .circle7{
     top: 19%;
@@ -119,7 +112,7 @@ main{
     background: linear-gradient(180deg, #2613FA 32.53%, rgba(185, 23, 242, 0) 100%);
 }
 .circle2{
-    left: 21.5%;
+    left: 21%;
     background: linear-gradient(180deg, #17DFFA 46.07%, rgba(129, 22, 196, 0) 100%);
 }
 .circle3{
@@ -127,20 +120,22 @@ main{
 }
 .circle4{
     bottom: -2%;
+    left: 51%;
     background: linear-gradient(180deg, #B109A1 46.59%, #2613FA 100%);
 }
 .circle5{
     background: linear-gradient(180deg, #680895 0%, rgba(22, 236, 236, 0) 100%);
 }
 .circle6{
-    right: 18%;
+    right: 17.5%;
     background: linear-gradient(180deg, #48EAEA 26.8%, #2613FA 100%);
 }
 .circle7{
     background: linear-gradient(180deg, #940CFE 0%, #FA13F0 100%);
 }
 footer{
-    padding: 100px 0;
+    padding: 7.320644216691069vw 0;
+    position: relative;
 }
 footer .footer-top{
     display: flex;
@@ -149,27 +144,53 @@ footer .footer-top{
 }
 footer .footer-top svg{
     border-radius: 50%;
-    padding: 10px;
+    padding: 0.7320644216691069vw;
     background: #E3F515;
+    width: 3.6603221083455346vw;
+    height: 3.5000000000000004vw;
 }
-footer .footer-top .svg_2{
-    padding: 10px 16px;
+
+.d-n{
+    position: absolute;
+    top: -3.6603221083455346vw;
+    right: 2%;
+    display: none;
+    font-size:  1.4641288433382138vw;
+    padding: 1.4641288433382138vw 0.7320644216691069vw;
+    background: rgba(0, 0, 0, 0.6);
+    color: #adadad;
+    border-radius: 1.4641288433382138vw;
+}
+.hover{
+    cursor: help;
+    transition: 8s;
+}
+.hover:hover .d-n{
+    display: block;
+    border-top: 1.4641288433382138vw solid green;
+    border-bottom: 1.4641288433382138vw solid green;
+    border-left: 1.4641288433382138vw solid red;
+    border-right: 1.4641288433382138vw solid red;
+
 }
 .footer-button{
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    padding: 3.6603221083455346vw 0;
+}
+.footer-button:hover{
+    text-decoration: underline;
 }
 .footer-button button{
     background: linear-gradient(180deg, #05E1FF 0%, rgba(236, 12, 214, 0.5) 100%);
-    border: 1px solid rgba(160, 5, 255, 0.48);
-    border-radius: 14px;
-    padding: 20px;
+    border: 0.07320644216691069vw solid rgba(160, 5, 255, 0.48);
+    border-radius: 1.0248901903367496vw;
+    padding: 1.4641288433382138vw;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 2.635431918008785vw;
+    line-height: 3.22108345534407vw;
     color: #FFFFFF;
 }
 #play{
